@@ -13,5 +13,6 @@
 	<modules>
 		<module>fr.opensagres.xdocreport.core.feature</module>
 		<module>fr.opensagres.xdocreport.template.feature</module>
+		<module>fr.opensagres.xdocreport.converter.feature</module>
 	</modules>
 </project>
