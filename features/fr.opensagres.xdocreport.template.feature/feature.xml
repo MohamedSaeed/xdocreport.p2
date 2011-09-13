@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="fr.opensagres.xdocreport.core.feature"
-      label="Core"
+      id="fr.opensagres.xdocreport.template.feature"
+      label="Template"
       version="0.9.2.qualifier">
 
    <description url="http://www.example.com/description">
@@ -17,9 +17,19 @@
    </license>
 
    <plugin
-         id="fr.opensagres.xdocreport.core"
+         id="fr.opensagres.xdocreport.template"
          download-size="0"
          install-size="0"
          version="0.0.0"/>
 
+   <plugin
+         id="fr.opensagres.xdocreport.template.freemarker"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+         <plugin
+         id="fr.opensagres.xdocreport.template.velocity"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
 </feature>
