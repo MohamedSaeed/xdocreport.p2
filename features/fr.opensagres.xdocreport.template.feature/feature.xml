@@ -20,16 +20,19 @@
          id="fr.opensagres.xdocreport.template"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="0.0.0"
+         unpack="false"/>
 
    <plugin
          id="fr.opensagres.xdocreport.template.freemarker"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="0.0.0"
+         unpack="false"/>
          <plugin
          id="fr.opensagres.xdocreport.template.velocity"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="0.0.0"
+         unpack="false"/>
 </feature>

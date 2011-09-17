@@ -20,18 +20,21 @@
          id="fr.opensagres.xdocreport.converter"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="0.0.0"
+         unpack="false"/>
 
    <plugin
          id="fr.opensagres.xdocreport.converter.docx.xwpf"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
-	
-	<plugin
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
          id="fr.opensagres.xdocreport.converter.odt.odfdom"
          download-size="0"
          install-size="0"
-         version="0.0.0"/>
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
