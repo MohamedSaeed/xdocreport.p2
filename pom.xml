@@ -124,7 +124,7 @@
 		<repository>
 			<id>externals</id>
 			<layout>p2</layout>
-			<url>file:externals</url>
+			<url>https://svn.codespot.com/a/eclipselabs.org/xdocreport-p2repo/p2repo/externals</url>
 		</repository>
 	</repositories> 
 </project>
