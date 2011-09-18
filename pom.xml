@@ -52,7 +52,7 @@
 
 	</build>
 	<dependencies>
-		<dependency>	
+		<dependency>
 			<groupId>fr.opensagres</groupId>
 			<artifactId>fr.opensagres.xdocreport.document</artifactId>
 			<version>0.9.2-SNAPSHOT</version>
@@ -120,13 +120,13 @@
 		<module>p2repository</module>
 	</modules>
 
-	 <repositories>
+	<repositories>
 		<repository>
 			<id>externals</id>
 			<layout>p2</layout>
 			<url>https://svn.codespot.com/a/eclipselabs.org/xdocreport-p2repo/p2repo/externals</url>
 		</repository>
-	
+
 		<repository>
 			<id>snapshot</id>
 			<snapshots>
@@ -136,4 +136,10 @@
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 		</repository>
 	</repositories>
+
+	<scm>
+		<connection>scm:git:http://code.google.com/p/xdocreport.p2/</connection>
+		<developerConnection>scm:git:https://code.google.com/p/xdocreport.p2/</developerConnection>
+		<url>http://code.google.com/p/xdocreport/</url>
+	</scm>
 </project>
