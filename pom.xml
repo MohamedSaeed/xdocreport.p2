@@ -126,5 +126,14 @@
 			<layout>p2</layout>
 			<url>https://svn.codespot.com/a/eclipselabs.org/xdocreport-p2repo/p2repo/externals</url>
 		</repository>
-	</repositories> 
+	
+		<repository>
+			<id>snapshot</id>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<name>OSS</name>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+		</repository>
+	</repositories>
 </project>
