@@ -45,12 +45,6 @@
          version="0.0.0"
          unpack="false"/>
 
-   <plugin
-         id="com.springsource.org.apache.commons.fileupload"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
 
    <plugin
          id="com.springsource.org.apache.commons.logging"
@@ -72,7 +66,7 @@
          version="0.0.0" unpack="false"/>
 
    <plugin
-         id="fr.opensagres.org.apache.poi.osgibundle"
+         id="fr.opensagres.org.apache.poi.osgi"
          download-size="0"
          install-size="0"
          version="0.0.0" unpack="false"/>
@@ -131,5 +125,11 @@
          install-size="0"
          version="0.0.0" unpack="false"/>
 
+   <plugin
+         id="org.apache.oro"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
 
 </feature>
