@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<artifactId>xdocreport.p2</artifactId>
-		<groupId>xdocreport.p2</groupId>
+			<groupId>fr.opensagres.xdocreport</groupId>
 		<version>0.9.3-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 
