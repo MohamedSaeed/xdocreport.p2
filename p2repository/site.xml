@@ -12,6 +12,9 @@
    <feature url="features/fr.opensagres.xdocreport.template.feature_0.9.3.qualifier.jar" id="fr.opensagres.xdocreport.template.feature" version="0.9.3.qualifier">
       <category name="xdocreport"/>
    </feature>
+   <feature url="features/fr.opensagres.xdocreport.jsr303_0.9.3.qualifier.jar" id="fr.opensagres.xdocreport.jsr303" version="0.9.3.qualifier">
+      <category name="xdocreport"/>
+   </feature>
    <feature url="features/fr.opensagres.xdocreport.externals.feature_0.9.3.qualifier.jar" id="fr.opensagres.xdocreport.externals.feature" version="0.9.3.qualifier">
       <category name="xdocreport-externals"/>
    </feature>

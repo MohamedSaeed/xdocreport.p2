@@ -11,6 +11,7 @@
 	<artifactId>features</artifactId>
 	<packaging>pom</packaging>
 	<modules>
+		<module>fr.opensagres.xdocreport.jsr303</module>
 		<module>fr.opensagres.xdocreport.externals.feature</module>
 		<module>fr.opensagres.xdocreport.core.feature</module>
 		<module>fr.opensagres.xdocreport.template.feature</module>
