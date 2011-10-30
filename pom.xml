@@ -113,6 +113,11 @@
 			<version>0.9.3-SNAPSHOT</version>
 		</dependency>
 		<dependency>
+			<artifactId>fr.opensagres.xdocreport.template.textstyling.wiki</artifactId>
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<version>0.9.3-SNAPSHOT</version>
+		</dependency>
+		<dependency>
 			<artifactId>javax.validation.osgi.config.bundle.hibernatevalidator</artifactId>
 			<groupId>fr.opensagres.eclipse</groupId>
 			<version>1.0.0-SNAPSHOT</version>
