@@ -137,6 +137,11 @@
 			<artifactId>gemini-blueprint-extender</artifactId>
 			<version>1.0.0.RELEASE</version>
 		</dependency>
+		<dependency>
+			<groupId>org.apache.derby</groupId>
+			<artifactId>derby</artifactId>
+			<version>10.8.2.2</version>
+		</dependency>
 	</dependencies>
 
 
