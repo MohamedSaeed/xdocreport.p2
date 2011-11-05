@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="fr.opensagres.xdocreport.document.feature"
-      label="Document"
+      id="fr.opensagres.xdocreport.gemini.feature"
+      label="Gemini"
       version="0.9.4.qualifier">
 
    <description url="http://www.example.com/description">
@@ -17,42 +17,70 @@
    </license>
 
    <plugin
-         id="fr.opensagres.xdocreport.document"
+         id="org.springframework.aop"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.opensagres.xdocreport.document.docx"
+         id="org.springframework.asm"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.opensagres.xdocreport.document.odp"
+         id="org.springframework.beans"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.opensagres.xdocreport.document.ods"
+         id="org.springframework.context"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.opensagres.xdocreport.document.odt"
+         id="org.springframework.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
 
    <plugin
-         id="fr.opensagres.xdocreport.document.pptx"
+         id="org.springframework.expression"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.blueprint.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.blueprint.extender"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.gemini.blueprint.io"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.springsource.org.aopalliance"
          download-size="0"
          install-size="0"
          version="0.0.0"

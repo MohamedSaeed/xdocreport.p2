@@ -132,14 +132,18 @@
 			<groupId>fr.opensagres.eclipse</groupId>
 			<version>1.0.0-SNAPSHOT</version>
 		</dependency>
-
-
+		<dependency>
+			<groupId>org.eclipse.gemini.blueprint</groupId>
+			<artifactId>gemini-blueprint-extender</artifactId>
+			<version>1.0.0.RELEASE</version>
+		</dependency>
 	</dependencies>
 
 
 	<modules>
 		<module>features</module>
 		<module>p2repository</module>
+
 	</modules>
 
 	<repositories>
@@ -161,6 +165,11 @@
 			<id>indigo</id>
 			<layout>p2</layout>
 			<url>http://download.eclipse.org/releases/indigo</url>
+		</repository>
+		<repository>
+			<id>zodiac-repository</id>
+			<name>Zodiac Release Repository</name>
+			<url>http://zodiac.springsource.com/maven/bundles/release</url>
 		</repository>
 	</repositories>
 
