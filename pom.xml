@@ -147,16 +147,10 @@
 			<artifactId>spring-data-jpa</artifactId>
 			<version>1.0.1.RELEASE</version>
 		</dependency>
-		<!-- <dependency>
-			<groupId>org.hibernate.common</groupId>
-			<artifactId>com.springsource.org.hibernate.annotations.common</artifactId>
-			<version>4.0.0.CR2</version>
-		</dependency>
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>com.springsource.org.hibernate.ejb</artifactId>
-			<version>4.0.0.CR4</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>org.hibernate.common</groupId> <artifactId>com.springsource.org.hibernate.annotations.common</artifactId> 
+			<version>4.0.0.CR2</version> </dependency> <dependency> <groupId>org.hibernate</groupId> 
+			<artifactId>com.springsource.org.hibernate.ejb</artifactId> <version>4.0.0.CR4</version> 
+			</dependency> -->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>com.springsource.org.hibernate</artifactId>
@@ -168,27 +162,16 @@
 			<version>1.0.3.Final</version>
 		</dependency>
 		<dependency>
-    <groupId>org.apache.ant</groupId>
-    <artifactId>com.springsource.org.apache.tools.ant</artifactId>
-    <version>1.8.1</version>
-</dependency>
-<dependency>
-    <groupId>org.apache.log4j</groupId>
-    <artifactId>com.springsource.org.apache.log4j</artifactId>
-    <version>1.2.16</version>
-</dependency>
-
-	<!-- <dependency>
-		<groupId>org.jboss.logging</groupId>
-		<artifactId>com.springsource.org.jboss.logging</artifactId>
-		<version>3.0.0.GA</version>
-	</dependency> 
-
- <dependency>
-    <groupId>org.jboss.logging</groupId>
-    <artifactId>com.springsource.org.jboss.logging</artifactId>
-    <version>3.0.0.GA</version>
-</dependency> -->
+			<groupId>org.apache.ant</groupId>
+			<artifactId>com.springsource.org.apache.tools.ant</artifactId>
+			<version>1.8.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.log4j</groupId>
+			<artifactId>com.springsource.org.apache.log4j</artifactId>
+			<version>1.2.16</version>
+		</dependency>
+		
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>com.springsource.org.hibernate.core</artifactId>
