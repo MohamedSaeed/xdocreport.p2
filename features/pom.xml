@@ -14,6 +14,7 @@
 		<module>fr.opensagres.xdocreport.gemini.feature</module>
 		<module>fr.opensagres.xdocreport.jsr303</module>
 		<module>fr.opensagres.xdocreport.externals.feature</module>
+		<module>fr.opensagres.xdocreport.externals.jpa</module>
 		<module>fr.opensagres.xdocreport.core.feature</module>
 		<module>fr.opensagres.xdocreport.template.feature</module>
 		<module>fr.opensagres.xdocreport.converter.feature</module>

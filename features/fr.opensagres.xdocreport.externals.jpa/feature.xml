@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="fr.opensagres.xdocreport.externals.jpa"
+      label="JPA"
+      version="0.9.4.qualifier">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+  <plugin
+         id="derby"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+         
+  <plugin
+         id="spring-data-jpa"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+  
+  <plugin
+         id="org.springframework.data.commons"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>   
+         
+  <plugin
+         id="com.springsource.org.hibernate"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+ <!--  <plugin
+         id="com.springsource.org.hibernate.core"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+    <plugin
+         id="com.springsource.org.hibernate.annotations.common"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+    
+    <plugin
+         id="com.springsource.org.hibernate.ejb"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>    -->                             
+</feature>

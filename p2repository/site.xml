@@ -18,6 +18,9 @@
    <feature url="features/fr.opensagres.xdocreport.externals.feature_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.externals.feature" version="0.9.4.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
+   <feature url="features/fr.opensagres.xdocreport.externals.jpa_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.externals.jpa" version="0.9.4.qualifier">
+      <category name="xdocreport-externals"/>
+   </feature>
    <feature url="features/fr.opensagres.xdocreport.thirdparties-extension.feature_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.thirdparties-extension.feature" version="0.9.4.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
