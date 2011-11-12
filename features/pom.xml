@@ -19,6 +19,7 @@
 		<module>fr.opensagres.xdocreport.template.feature</module>
 		<module>fr.opensagres.xdocreport.converter.feature</module>
 		<module>fr.opensagres.xdocreport.document.feature</module>
+		<module>fr.opensagres.xdocreport.tests.feature</module>
 		<module>fr.opensagres.xdocreport.thirdparties-extension.feature</module>
 	</modules>
 </project>
