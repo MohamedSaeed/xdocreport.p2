@@ -27,6 +27,9 @@
    <feature url="features/fr.opensagres.xdocreport.gemini.feature_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.gemini.feature" version="0.9.4.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
+   <feature url="features/fr.opensagres.xdocreport.tests.feature_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.tests.feature" version="0.9.4.qualifier">
+      <category name="xdocreport-externals"/>
+   </feature>
    <category-def name="xdocreport" label="xdocreport"/>
    <category-def name="xdocreport-externals" label="xdocreport-externals"/>
 </site>

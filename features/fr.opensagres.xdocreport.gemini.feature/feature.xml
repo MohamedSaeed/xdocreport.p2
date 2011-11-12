@@ -58,13 +58,6 @@
          version="3.0.6"
          unpack="false"/>
 
-   <plugin
-         id="org.springframework.test"
-         download-size="0"
-         install-size="0"
-         version="3.0.6"
-         unpack="false"/>
-
 
    <plugin
          id="org.eclipse.gemini.blueprint.core"
@@ -94,10 +87,5 @@
          version="0.0.0"
          unpack="false"/>
 
-<plugin
-         id="org.eclipse.gemini.blueprint.test"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>
+
 </feature>
