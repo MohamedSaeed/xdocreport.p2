@@ -138,6 +138,11 @@
 			<version>1.0.0.RELEASE</version>
 		</dependency>
 		<dependency>
+			<groupId>org.eclipse.gemini.blueprint</groupId>
+			<artifactId>gemini-blueprint-test</artifactId>
+			<version>1.0.0.RELEASE</version>
+		</dependency>
+		<dependency>
 			<groupId>org.apache.derby</groupId>
 			<artifactId>derby</artifactId>
 			<version>10.8.2.2</version>
