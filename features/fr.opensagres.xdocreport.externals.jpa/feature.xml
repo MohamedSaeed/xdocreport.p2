@@ -78,6 +78,21 @@
          version="0.0.0"
          unpack="false"/>
          
+      <plugin
+         id="com.springsource.org.jboss.jandex"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+            
+      
+      <plugin
+         id="com.springsource.com.fasterxml.classmate"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+                  
         
    <!-- 
     <plugin
