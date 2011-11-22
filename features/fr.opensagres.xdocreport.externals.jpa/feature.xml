@@ -44,12 +44,12 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-  <plugin
+ <!-- <plugin
          id="com.springsource.org.hibernate.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/>-->
     <plugin
          id="com.springsource.org.hibernate.annotations.common"
          download-size="0"
@@ -84,7 +84,6 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-            
       
       <plugin
          id="com.springsource.com.fasterxml.classmate"
@@ -92,16 +91,22 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-                  
-        
-   <!-- 
+
+      <plugin
+         id="com.springsource.org.jboss.logging"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+         
+   
     <plugin
          id="com.springsource.org.hibernate.ejb"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>   
-    -->
+   
     <plugin
          id="com.springsource.antlr"
          download-size="0"
