@@ -8,7 +8,7 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<tycho-version>0.13.0</tycho-version>
-		<spring.version>3.0.6.RELEASE</spring.version>
+		<spring.version>3.1.0.RC1</spring.version>
 	</properties>
 
 
@@ -164,6 +164,21 @@
 			<artifactId>spring-orm</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aop</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 		<!-- <dependency> <groupId>org.hibernate.common</groupId> <artifactId>com.springsource.org.hibernate.annotations.common</artifactId> 
 			<version>4.0.0.CR2</version> </dependency> -->
 <!-- 
@@ -262,6 +277,11 @@
 			<name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
 			<url>http://repository.springsource.com/maven/bundles/external</url>
 		</repository>
+<repository>
+    <id>org.springframework.maven.milestone</id>
+    <name>Maven Central Compatible Spring Milestone Repository</name>
+    <url>http://maven.springframework.org/milestone</url>
+</repository>
 
 	</repositories>
 
