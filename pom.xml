@@ -8,7 +8,8 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<tycho-version>0.13.0</tycho-version>
-		<spring.version>3.1.0.RC1</spring.version>
+<!-- 		<spring.version>3.1.0.RC1</spring.version> -->
+		<spring.version>3.0.6.RELEASE</spring.version>
 	</properties>
 
 
@@ -137,11 +138,35 @@
 			<groupId>org.eclipse.gemini.blueprint</groupId>
 			<artifactId>gemini-blueprint-extender</artifactId>
 			<version>1.0.0.RELEASE</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>org.springframework.aop</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>org.springframework.beans</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>org.springframework.context</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>org.springframework.core</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.gemini.blueprint</groupId>
 			<artifactId>gemini-blueprint-test</artifactId>
 			<version>1.0.0.RELEASE</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>org.springframework.test</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.derby</groupId>
@@ -152,6 +177,16 @@
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-jpa</artifactId>
 			<version>1.0.1.RELEASE</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>spring-orm</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+				<exclusion>
+					<artifactId>spring-core</artifactId>
+					<groupId>org.springframework</groupId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -161,12 +196,17 @@
 
 		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-orm</artifactId>
+			<artifactId>spring-asm</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
+			<groupId>org.aopalliance</groupId>
+			<artifactId>com.springsource.org.aopalliance</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
 			<groupId>org.springframework</groupId>
-			<artifactId>spring-core</artifactId>
+			<artifactId>spring-orm</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 		<dependency>
@@ -179,15 +219,15 @@
 			<artifactId>spring-jdbc</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 		<!-- <dependency> <groupId>org.hibernate.common</groupId> <artifactId>com.springsource.org.hibernate.annotations.common</artifactId> 
 			<version>4.0.0.CR2</version> </dependency> -->
-<!-- 
-		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>com.springsource.org.hibernate.ejb</artifactId>
-
-			<version>4.0.0.CR4</version>
-		</dependency> -->
+		<!-- <dependency> <groupId>org.hibernate</groupId> <artifactId>com.springsource.org.hibernate.ejb</artifactId> 
+			<version>4.0.0.CR4</version> </dependency> -->
 
 		<dependency>
 			<groupId>org.hibernate</groupId>
@@ -277,11 +317,11 @@
 			<name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
 			<url>http://repository.springsource.com/maven/bundles/external</url>
 		</repository>
-<repository>
-    <id>org.springframework.maven.milestone</id>
-    <name>Maven Central Compatible Spring Milestone Repository</name>
-    <url>http://maven.springframework.org/milestone</url>
-</repository>
+		<repository>
+			<id>org.springframework.maven.milestone</id>
+			<name>Maven Central Compatible Spring Milestone Repository</name>
+			<url>http://maven.springframework.org/milestone</url>
+		</repository>
 
 	</repositories>
 
