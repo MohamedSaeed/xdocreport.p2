@@ -30,6 +30,12 @@
    <feature url="features/fr.opensagres.xdocreport.tests.feature_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.tests.feature" version="0.9.4.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
+   <feature url="features/fr.opensagres.xdocreport.externals.hibernate_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.externals.hibernate" version="0.9.4.qualifier">
+      <category name="xdocreport-externals"/>
+   </feature>
+   <feature url="features/fr.opensagres.xdocreport.externals.eclipselink_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.externals.eclipselink" version="0.9.4.qualifier">
+      <category name="xdocreport-externals"/>
+   </feature>
    <category-def name="xdocreport" label="xdocreport"/>
    <category-def name="xdocreport-externals" label="xdocreport-externals"/>
 </site>
