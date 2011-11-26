@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="fr.opensagres.xdocreport.externals.jpa"
-      label="JPA"
+      id="fr.opensagres.xdocreport.externals.eclipselink"
+      label="EclipseLink"
       version="0.9.4.qualifier">
 
    <description url="http://www.example.com/description">
@@ -17,7 +17,7 @@
    </license>
 
   <plugin
-         id="derby"
+         id="org.eclipse.persistence.jpa"
          download-size="0"
          install-size="0"
          version="0.0.0"
@@ -25,25 +25,31 @@
          
          
   <plugin
-         id="spring-data-jpa"
+         id="org.eclipse.persistence.core"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
   
   <plugin
-         id="org.springframework.data.commons"
+         id="org.eclipse.persistence.asm"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>   
          
-         
-    <plugin
-         id="com.springsource.javax.persistence"
+  <plugin
+         id="org.eclipse.persistence.antlr"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>
- 	                                        
+          
+  
+  <plugin
+         id="javax.persistence"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>                                      
 </feature>

@@ -272,6 +272,16 @@
 			<artifactId>javax.annotation</artifactId>
 			<version>1.1.0.v201105051105</version>
 		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>javax.persistence</artifactId>
+			<version>2.0.3.v201010191057</version>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.jpa</artifactId>
+			<version>2.3.0</version>
+		</dependency> 
 	</dependencies>
 
 
@@ -322,7 +332,12 @@
 			<name>Maven Central Compatible Spring Milestone Repository</name>
 			<url>http://maven.springframework.org/milestone</url>
 		</repository>
-
+		<repository>
+			<id>EclipseLink Repo</id>
+			<url>http://download.eclipse.org/rt/eclipselink/maven.repo</url>
+			<!-- use this for javax.persistence <snapshots> <enabled>true</enabled> 
+				</snapshots> -->
+		</repository>
 	</repositories>
 
 	<scm>
