@@ -7,4 +7,5 @@
     <relativePath>..</relativePath>
   </parent>
   <artifactId>fr.opensagres.xdocreport.externals.hibernate</artifactId>
+  <packaging>eclipse-feature</packaging>
 </project>
