@@ -21,39 +21,33 @@
          download-size="0"
          install-size="0"
          version="0.0.0"
-         unpack="false"/>
+         unpack="false"/>   
     <plugin
-         id="org.apache.lucene.core"
+         id="com.springsource.org.apache.lucene.analysis"
          download-size="0"
          install-size="0"
-         version="0.0.0"
-         unpack="false"/>     
+         version="2.4.1"
+         unpack="false"/>      
     <plugin
-         id="org.apache.lucene.analysis"
+         id="com.springsource.org.apache.lucene"
          download-size="0"
          install-size="0"
-         version="0.0.0"
-         unpack="false"/>     
-    <plugin
-         id="org.apache.lucene.highlighter"
-         download-size="0"
-         install-size="0"
-         version="0.0.0"
-         unpack="false"/>     
-    <plugin
-         id="org.apache.lucene.memory"
+         version="2.4.1"
+         unpack="false"/>   
+ <plugin
+         id="com.springsource.org.apache.lucene.search.highlight"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>     
 <plugin
-         id="org.apache.lucene.queries"
+         id="com.springsource.org.apache.lucene.search"
          download-size="0"
          install-size="0"
          version="0.0.0"
          unpack="false"/>     
 <plugin
-         id="org.apache.lucene.snowball"
+         id="com.springsource.org.apache.lucene.analysis.snowball"
          download-size="0"
          install-size="0"
          version="0.0.0"
