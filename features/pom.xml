@@ -23,6 +23,7 @@
 		<module>fr.opensagres.xdocreport.thirdparties-extension.feature</module>
 		<module>fr.opensagres.xdocreport.externals.hibernate</module> 
 		<module>fr.opensagres.xdocreport.externals.eclipselink</module>
-		<module>fr.opensagres.xdocreport.compass</module>
+		<module>fr.opensagres.xdocreport.externals.dosgi</module>
+<!-- 		<module>fr.opensagres.xdocreport.compass</module> -->
 	</modules>
 </project>

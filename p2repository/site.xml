@@ -33,9 +33,10 @@
    <feature url="features/fr.opensagres.xdocreport.externals.hibernate_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.externals.hibernate" version="0.9.4.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.compass_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.compass" version="0.9.4.qualifier">
+<!--   <feature url="features/fr.opensagres.xdocreport.compass_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.compass" version="0.9.4.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
+-->   
    <feature url="features/fr.opensagres.xdocreport.externals.eclipselink_0.9.4.qualifier.jar" id="fr.opensagres.xdocreport.externals.eclipselink" version="0.9.4.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
