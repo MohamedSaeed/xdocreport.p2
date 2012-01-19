@@ -2,7 +2,7 @@
 <feature
       id="fr.opensagres.xdocreport.externals.dosgi"
       label="dosgi"
-      version="0.9.4.qualifier">
+      version="0.9.5.qualifier">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
@@ -172,7 +172,31 @@
          install-size="0"
          version="0.0.0"
          unpack="false"/>
-<!--         
+    
+    
+    <plugin
+         id="jackson-jaxrs"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/> 
+    
+    <plugin
+         id="jackson-core-asl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>      
+
+   
+    <plugin
+         id="jackson-mapper-asl"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>      
+<!--                
+     
     <plugin
          id="org.apache.servicemix.bundles.joda-time_1.5.2.4"
          download-size="0"
