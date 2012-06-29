@@ -3,7 +3,7 @@
   <parent>
     <artifactId>gemini-blueprint</artifactId>
     <groupId>fr.opensagres.xdocreport</groupId>
-    <version>0.9.5-SNAPSHOT</version>
+    <version>0.9.8-SNAPSHOT</version>
     <relativePath>..</relativePath>
   </parent>
   <artifactId>feature</artifactId>

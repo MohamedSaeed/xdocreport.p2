@@ -4,7 +4,7 @@
 	<parent>
 		<artifactId>xdocreport.p2</artifactId>
 			<groupId>fr.opensagres.xdocreport</groupId>
-		<version>0.9.5-SNAPSHOT</version>
+		<version>0.9.8-SNAPSHOT</version>
 		<relativePath>..</relativePath>
 
 	</parent>
@@ -25,5 +25,6 @@
 		<module>fr.opensagres.xdocreport.externals.eclipselink</module>
 		<module>fr.opensagres.xdocreport.externals.dosgi</module>
 <!-- 		<module>fr.opensagres.xdocreport.compass</module> -->
+		<module>fr.opensagres.xdocreport.remoting</module>
 	</modules>
 </project>

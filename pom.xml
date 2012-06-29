@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>fr.opensagres.xdocreport</groupId>
 	<artifactId>xdocreport.p2</artifactId>
-	<version>0.9.5-SNAPSHOT</version>
+	<version>0.9.8-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<tycho-version>0.13.0</tycho-version>
+		<tycho-version>0.15.0</tycho-version>
 		<spring.version>3.1.0.RELEASE</spring.version>
 		<!-- <spring.version>3.0.6.RELEASE</spring.version> -->
 	</properties>
@@ -58,67 +58,67 @@
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.docx</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.odp</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.ods</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.odt</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.document.pptx</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.converter</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.converter.docx.xwpf</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.converter.odt.odfdom</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.template</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.template.freemarker</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.template.velocity</artifactId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<artifactId>fr.opensagres.xdocreport.template.textstyling.wiki</artifactId>
 			<groupId>fr.opensagres.xdocreport</groupId>
-			<version>0.9.5-SNAPSHOT</version>
+			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<artifactId>javax.validation.osgi.config.bundle.hibernatevalidator</artifactId>
