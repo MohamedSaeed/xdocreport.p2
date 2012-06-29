@@ -97,6 +97,11 @@
 		</dependency>
 		<dependency>
 			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>fr.opensagres.xdocreport.document.textstyling.wiki</artifactId>
+			<version>0.9.8-SNAPSHOT</version>
+		</dependency>	
+		<dependency>
+			<groupId>fr.opensagres.xdocreport</groupId>
 			<artifactId>fr.opensagres.xdocreport.converter.odt.odfdom</artifactId>
 			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
