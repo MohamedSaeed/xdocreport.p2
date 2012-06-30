@@ -5,6 +5,6 @@
     <artifactId>features</artifactId>
     <version>0.9.8-SNAPSHOT</version>
   </parent>
-  <artifactId>fr.opensagres.xdocreport.remoting</artifactId>
+  <artifactId>fr.opensagres.xdocreport.remoting.feature</artifactId>
   <packaging>eclipse-feature</packaging>
 </project>

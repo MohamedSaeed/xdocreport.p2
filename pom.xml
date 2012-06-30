@@ -121,8 +121,9 @@
 			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
-			<artifactId>fr.opensagres.xdocreport.template.textstyling.wiki</artifactId>
+		
 			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>fr.opensagres.xdocreport.remoting.resources.services.client</artifactId>
 			<version>0.9.8-SNAPSHOT</version>
 		</dependency>
 		<dependency>
@@ -314,6 +315,7 @@
 			<artifactId>cxf-dosgi-ri-singlebundle-distribution</artifactId>
 			<version>1.2</version>
 		</dependency>
+		
 		
 		<!-- <dependency>
 			<groupId>org.apache.lucene</groupId>

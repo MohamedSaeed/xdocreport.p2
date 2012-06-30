@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feature
-      id="fr.opensagres.xdocreport.template.feature"
+      id="fr.opensagres.xdocreport.remoting.feature"
       label="Template"
-      version="0.9.5.qualifier">
+      version="0.9.8.qualifier">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]

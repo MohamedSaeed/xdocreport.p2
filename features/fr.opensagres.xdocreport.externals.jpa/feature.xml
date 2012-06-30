@@ -2,7 +2,7 @@
 <feature
       id="fr.opensagres.xdocreport.externals.jpa"
       label="JPA"
-      version="0.9.5.qualifier">
+      version="0.9.8.qualifier">
 
    <description url="http://www.example.com/description">
       [Enter Feature Description here.]
