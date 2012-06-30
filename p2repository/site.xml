@@ -6,6 +6,9 @@
    <feature url="features/fr.opensagres.xdocreport.core.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.core.feature" version="0.9.8.qualifier">
       <category name="xdocreport"/>
    </feature>
+   <feature url="features/fr.opensagres.xdocreport.remoting.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.remoting.feature" version="0.9.8.qualifier">
+      <category name="xdocreport"/>
+   </feature>   
    <feature url="features/fr.opensagres.xdocreport.document.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.document.feature" version="0.9.8.qualifier">
       <category name="xdocreport"/>
    </feature>
