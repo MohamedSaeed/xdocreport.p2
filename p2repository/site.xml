@@ -1,49 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <site>
-   <feature url="features/fr.opensagres.xdocreport.converter.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.converter.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.converter.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.converter.feature" version="1.0.0.qualifier">
       <category name="xdocreport"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.core.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.core.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.core.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.core.feature" version="1.0.0.qualifier">
       <category name="xdocreport"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.remoting.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.remoting.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.remoting.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.remoting.feature" version="1.0.0.qualifier">
       <category name="xdocreport"/>
    </feature>   
-   <feature url="features/fr.opensagres.xdocreport.document.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.document.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.document.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.document.feature" version="1.0.0.qualifier">
       <category name="xdocreport"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.template.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.template.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.template.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.template.feature" version="1.0.0.qualifier">
       <category name="xdocreport"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.jsr303_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.jsr303" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.jsr303_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.jsr303" version="1.0.0.qualifier">
       <category name="xdocreport"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.externals.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.externals.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.externals.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.externals.feature" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.externals.jpa_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.externals.jpa" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.externals.jpa_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.externals.jpa" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.thirdparties-extension.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.thirdparties-extension.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.thirdparties-extension.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.thirdparties-extension.feature" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.gemini.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.gemini.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.gemini.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.gemini.feature" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.tests.feature_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.tests.feature" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.tests.feature_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.tests.feature" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.externals.hibernate_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.externals.hibernate" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.externals.hibernate_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.externals.hibernate" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
-   <feature url="features/fr.opensagres.xdocreport.externals.dosgi_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.externals.dosgi" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.externals.dosgi_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.externals.dosgi" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
-<!--   <feature url="features/fr.opensagres.xdocreport.compass_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.compass" version="0.9.8.qualifier">
+<!--   <feature url="features/fr.opensagres.xdocreport.compass_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.compass" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
 -->   
-   <feature url="features/fr.opensagres.xdocreport.externals.eclipselink_0.9.8.qualifier.jar" id="fr.opensagres.xdocreport.externals.eclipselink" version="0.9.8.qualifier">
+   <feature url="features/fr.opensagres.xdocreport.externals.eclipselink_1.0.0.qualifier.jar" id="fr.opensagres.xdocreport.externals.eclipselink" version="1.0.0.qualifier">
       <category name="xdocreport-externals"/>
    </feature>
    <category-def name="xdocreport" label="xdocreport"/>
